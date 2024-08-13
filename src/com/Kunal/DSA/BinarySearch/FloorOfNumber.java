@@ -10,7 +10,7 @@ public class FloorOfNumber {
 		System.out.println(binarySearch);
 	}
 
-	//	return the index : greatest number <= target
+	//	return the index : greatest number <= targett
 	private static int floor(int[] arr, int target) {
 		
 		int start=0;

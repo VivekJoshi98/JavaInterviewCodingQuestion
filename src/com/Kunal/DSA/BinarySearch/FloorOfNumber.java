@@ -18,7 +18,8 @@ public class FloorOfNumber {
 		
 		while(start<=end)
 		{
-			int mid=(start+end)/2;
+		//	int mid=(start+end)/2;
+			int mid=start+(end-start)/2;
 			
 			if(target>arr[mid])
 			{

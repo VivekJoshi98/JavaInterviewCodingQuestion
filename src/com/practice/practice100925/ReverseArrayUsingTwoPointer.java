@@ -11,15 +11,23 @@ public class ReverseArrayUsingTwoPointer {
 	}
 
 	private static void reverseArray(int[] arr) {
-
-		int start = 0, end = arr.length - 1;
-
-		while (start < end) {
-			SwapValueInArray.swap(arr, start, end);
+		
+		int start=0;
+		int end=arr.length-1;
+		
+		while(start<end)
+		{
+			swap(start, end, arr);
 			start++;
 			end--;
-		}
-
-	//n	System.out.println(Arrays.toString(arr));
+		}		
 	}
+	private static void swap(int a,int b,int arr[]) {
+		
+		int temp=arr[a];
+		arr[a]=arr[b];
+		arr[b]=temp;
+	}
+
+	
 }

@@ -16,7 +16,7 @@ public class OrderAgnosticBS {
 		boolean isAsc;
 		int end=arr.length-1;
 		
-		if(arr2[start]<arr2[end])               
+		if(arr[start]<arr[end])               
 		{
 			isAsc=true;
 		}

@@ -8,16 +8,13 @@ public class ReverseArray {
 		int arr[]= {2,4,5,6,7,8};
 //		List<Integer> ls=Arrays.asList(1,2,3,4,5,6);
 //		System.out.println(ls);
-		
-		int reverseArray[]=new int[arr.length];
 		int index=0;
+		int revArray[]=new int[arr.length];
 		for(int i=arr.length-1;i>=0;i--)
 		{
-			System.out.println(arr[i]);
-			reverseArray[index]=arr[i];
-			index++;			
+			revArray[index]=arr[i];
+			index++;
 		}
-		System.out.println(Arrays.toString(reverseArray));
-
+		System.out.println(Arrays.toString(revArray));
 	}
 }

@@ -9,7 +9,7 @@ public class StringAnagram {
 	{
 		if(str1.length()!=str2.length())
 		{
-			System.out.println("String are not an anagram");
+			return false;
 		}
 		else
 		{
@@ -28,13 +28,12 @@ public class StringAnagram {
 				return false;
 			}
 		}
-		return false;
 	}
 	
 
 	public static void main(String[] args) {
 		
-		String name1="LISTEN";
+		String name1="LISTENt";
 		String name2="SILENT";
 		
 		if(anagram(name1,name2))

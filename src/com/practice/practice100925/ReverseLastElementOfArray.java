@@ -1,6 +1,5 @@
 package com.practice.practice100925;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ReverseLastElementOfArray {
@@ -13,7 +12,6 @@ public class ReverseLastElementOfArray {
 		str[str.length-1]=reverseString;
 		
 		System.out.println(Arrays.toString(str));
-
 	}
 
 	private static String reverseString(String str) {

@@ -9,7 +9,7 @@ public class Largest_Maximum_PositiveInteger {
 	public static void main(String[] args) {
 		int nums[] = { -1, -2, 3, 1 ,2};
 		int result = findMax(nums);
-		System.out.println("Largest positive integer with its negative: " + result);
+		System.out.println("Largest positive integer with its negative: "+ result);
 	}
 
 	private static int findMax(int[] nums) {
@@ -20,7 +20,7 @@ public class Largest_Maximum_PositiveInteger {
 		for (int n : nums) {
 			set.add(n);
 		}
-
+			System.out.println(set);
 		for (int n : nums) {
 			if (set.contains(n) && set.contains(-n)) {
 				if (n > max) {

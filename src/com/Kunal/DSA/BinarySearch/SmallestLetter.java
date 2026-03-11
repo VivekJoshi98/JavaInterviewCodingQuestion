@@ -6,7 +6,7 @@ public class SmallestLetter {
 	public static void main(String[] args) {
 		
 		char letter[]= {'c','f','j'};
-		char target='j';
+		char target='e';
 		char binarySearch = nextGreatestLetter(letter,target);
 		System.out.println(binarySearch);
 	}
@@ -21,7 +21,7 @@ public class SmallestLetter {
 		{
 			int mid=start+(end-start)/2;
 			
-			if(target<letter[mid])
+			if(target<letter[mid]) 
 			{
 				end=mid-1;
 				
@@ -30,7 +30,7 @@ public class SmallestLetter {
 			{
 				start=mid+1;
 			}
-		}
+		} 
 		
 		return letter[start % letter.length];
 		

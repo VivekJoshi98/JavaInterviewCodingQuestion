@@ -22,7 +22,7 @@ public class MaximumRepeatedCharUsingASCII {
 		for(char c:charArray)
 		{
 			if(arr[c]>maxValue)
-			{
+			{       
 				maxValue=arr[c];
 				maxChar=c;
 			}

@@ -1,6 +1,7 @@
 package basic.program.Array;
 
 import java.util.Arrays;
+import java.util.function.Predicate;
 
 public class CompareTwoArray {
 
@@ -39,5 +40,9 @@ public class CompareTwoArray {
 		{
 			System.out.println("Array1 and Array2 are not equal.");
 		}
+		
+		Predicate<Integer> p=e-> e>10;	
+		boolean test = p.test(20);
+		System.out.println(test);
 	}
 }

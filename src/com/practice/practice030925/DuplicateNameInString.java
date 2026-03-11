@@ -9,39 +9,36 @@ public class DuplicateNameInString {
 		
 		String names = "John,Emma,John,Mary,Emma";
 		
-		Map<String, Integer> map= new HashMap<>();
-		
 		String[] split = names.split(",");
 		
-		for(String s:split)
+		HashMap<String, Integer> map=new HashMap<>();
+		
+		for(String str:split)
 		{
-			if(map.containsKey(s))
+			if(map.containsKey(str))
 			{
-				int count = map.get(s);
-				map.put(s, ++count);
+				int count = map.get(str);
+				map.put(str, count+1);
 			}
 			else
 			{
-				map.put(s, 1);
+				map.put(str, 1);
 			}
-				
 		}
 		
-		boolean foundDuplicate=true;
-		for(Map.Entry<String, Integer> entry : map.entrySet())
-		{
-			if(entry.getValue()>1)
-			{
-				System.out.println(entry.getKey());
-				foundDuplicate=false;
-			}	
-	//		 .out.println(entry.getKey() +" "+entry.getValue());
-		}
-		
-		if(foundDuplicate)
-		{
-			System.out.println("Did not find any duplicate value");
-		}
-		
+
+		   // Print only duplicates
+		        System.out.println("Duplicate names:");
+//		        map.forEach((key, value) -> {
+//		            if (value > 1) {
+//		                System.out.println(key + " = " + value);
+//		            }
+//		        });
+
+		        for(Map.Entry<String, Integer> m:map.entrySet())	        	
+		        {
+		        	if(m.getValue()>1)
+		        	System.out.println(m.getKey()+" "+m.getValue());
+		        }
 	}
 }

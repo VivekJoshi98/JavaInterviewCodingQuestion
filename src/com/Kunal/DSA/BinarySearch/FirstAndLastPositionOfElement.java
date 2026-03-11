@@ -18,7 +18,7 @@ public static int[] firstAndLastPosition(int[] arr, int target) {
 		
 		int start= search(arr, target, true);
 		int end  = search(arr, target, false);
-	
+	 
 		ans[0]=start;
 		ans[1]=end;
 		

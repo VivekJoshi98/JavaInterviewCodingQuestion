@@ -3,23 +3,23 @@ package com.practice.practice030925;
 public class ArmStrongNo {
 
 	public static void main(String[] args) {
-		int num=153,r,sum=0;
-		int orignal=num;
 		
+		int number=153,r,sum=0,orignal=number;
 		
-		while(num>0)
+		while(number>0)
 		{
-			r=num%10;
+			r=number%10;
 			sum=sum+r*r*r;
-			num=num/10;
-			
+			number=number/10;
 		}
 		
-		if(sum==orignal)
+		if(orignal==sum)
 		{
-			System.out.println("No is armstrong "+sum);
+			System.out.println("No is armstrong "+orignal+" : "+sum);
 		}
 		else
-			System.out.println("No is not armstrong "+sum);
+		{
+			System.out.println("No is not armstrong "+orignal+" : "+sum);
+		}
 	}
 }

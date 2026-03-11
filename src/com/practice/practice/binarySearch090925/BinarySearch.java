@@ -23,13 +23,13 @@ public class BinarySearch {
 			}
 			else if(target>arr[mid])  
 			{
-				start=mid+1;
+				start=mid+1; 
 			}
 			else
 			{
 				return mid;
 			}
 		}
-		return -1;		
+		return -1;	
 	}
 }

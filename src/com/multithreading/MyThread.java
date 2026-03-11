@@ -27,7 +27,7 @@ public class MyThread implements Runnable{
 		
 		MyAnotherThread m1=new MyAnotherThread();
 		
-		thread.start();
+		//thread.start();
 		m1.start();
 		
 	}

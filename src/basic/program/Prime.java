@@ -1,6 +1,7 @@
 package basic.program;
 
 import java.util.Scanner;
+import java.util.function.Predicate;
 
 public class Prime {
 
@@ -18,6 +19,8 @@ public class Prime {
 				break;
 			}
 		}
+		
+		
 		if(prime)
 		{
 			System.out.println( value +" Number is prime no.");

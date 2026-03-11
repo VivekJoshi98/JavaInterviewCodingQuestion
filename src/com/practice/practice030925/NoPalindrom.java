@@ -1,9 +1,9 @@
-package com.practice.practice030925;
+ package com.practice.practice030925;
 
 public class NoPalindrom {
 
 	public static void main(String[] args) {
-		int num= 1221,r,rev=0,orignal=num;
+		int num= 12221,r,rev=0,orignal=num;
 		
 		while(num>0)
 		{

@@ -13,7 +13,7 @@ public class FindInMountainArray {
 	public static int search(int[] arr, int target) {
 		
 		int start = 0;
-		int end = arr.length - 1;
+		int end = arr.length - 1;   
 		int peakIndex = peakIndex(arr, start, end);
 //		System.out.println(peakIndex);
 		

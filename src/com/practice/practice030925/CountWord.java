@@ -6,9 +6,8 @@ public class CountWord {
 		String word="Java is programming language";
 		
 		String[] split = word.split(" ");
-		int len = split.length;
-		
-		System.out.println(len);
+		int length = split.length;
+		System.out.println(length);
 		
 	}
 }

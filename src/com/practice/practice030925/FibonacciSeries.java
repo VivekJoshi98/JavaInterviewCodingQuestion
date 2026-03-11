@@ -9,10 +9,10 @@ public class FibonacciSeries {
 		for(int i=0;i<=5;i++)
 		{
 			System.out.println(" "+a);
+			
 			c=a+b;
 			a=b;
 			b=c;
-			
 		}
 		
 	}

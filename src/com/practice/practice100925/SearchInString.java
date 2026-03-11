@@ -10,8 +10,7 @@ public class SearchInString {
 		
 	}
 
-	private static void searchInString(String name,char target) {
-		
+	private static void searchInString(String name,char target) {		
 		char[] charArray = name.toCharArray();
 		int count=0;
 		for(int i=0;i<=charArray.length-1;i++)

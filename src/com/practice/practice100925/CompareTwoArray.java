@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class CompareTwoArray {
 
 	public static void main(String[] args) {
-		int [] arr1= {2,9,8,5,7};
+		int [] arr1= {2,9,8,6};
 		int [] arr2= {2,8,9,5};
 	
 		boolean flag = compareTwoArray(arr1,arr2);
@@ -27,7 +27,7 @@ public class CompareTwoArray {
 		Arrays.sort(arr1);
 		Arrays.sort(arr2);
 			
-		boolean flag=true;
+		boolean flag=false;
 		
 		if(arr1.length==arr2.length)
 		{

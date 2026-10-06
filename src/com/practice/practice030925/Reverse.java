@@ -45,6 +45,7 @@ public class Reverse {
 			{
 				rev=rev+str.charAt(i);
 			}
+			System.out.println(" reverseString method : "+rev);
 			return rev;
 		
 	}

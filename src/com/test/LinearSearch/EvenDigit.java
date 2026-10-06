@@ -20,7 +20,7 @@ public class EvenDigit {
 		}
 		System.out.println("Number of even digit is : " + count);
 	}
-
+ 
 	private static boolean even(int even) {
 
 		int findDigit = findDigit(even);

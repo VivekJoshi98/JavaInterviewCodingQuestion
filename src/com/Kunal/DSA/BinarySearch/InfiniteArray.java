@@ -1,4 +1,4 @@
-package com.Kunal.DSA.BinarySearch;
+ package com.Kunal.DSA.BinarySearch;
 
 public class InfiniteArray {
 // find position of an element in a sorted array of infinite number

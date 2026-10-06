@@ -21,7 +21,7 @@ public class MyThread implements Runnable{
 	
 	public static void main(String[] args) {
 		
-		MyThread t1=new MyThread();
+	 	MyThread t1=new MyThread();
 		
 		Thread thread=new Thread(t1);
 		

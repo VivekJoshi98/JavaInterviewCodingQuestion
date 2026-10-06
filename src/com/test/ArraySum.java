@@ -9,13 +9,15 @@ public class ArraySum {
 		
 		int sum=0;
 		
-		for(int s:arr)
-		{
-			sum=sum+s;
+//		for (int i : arr) {
+//			sum+=i;
+//		}
+//		
+		for (int i = 0; i < arr.length; i++) {
+			sum=sum+arr[i];
 		}
-		
-		System.out.println(sum);
 				
+		System.out.println(sum);
 	}
 	
 }

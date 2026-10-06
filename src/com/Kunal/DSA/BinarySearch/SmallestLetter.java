@@ -5,7 +5,7 @@ public class SmallestLetter {
 // 744. Find smallest letter greater than the target
 	public static void main(String[] args) {
 		
-		char letter[]= {'c','f','j'};
+		char letter[]= {'c','f','j'};			
 		char target='e';
 		char binarySearch = nextGreatestLetter(letter,target);
 		System.out.println(binarySearch);

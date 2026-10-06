@@ -1,4 +1,4 @@
- package com.practice.practice030925;
+package com.practice.practice030925;
 
 public class NoPalindrom {
 
